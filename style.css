@@ -317,8 +317,8 @@ ul {
 }
 
 .service-wrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto 200px;
   gap: 20px;
 }
 
