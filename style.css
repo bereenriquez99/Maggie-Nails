@@ -330,6 +330,21 @@ ul {
   box-shadow: var(--shadow);
 }
 
+.service-images-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.service-images-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow);
+}
+
 .service-card {
   background: var(--white);
   padding: 30px;
