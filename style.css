@@ -105,13 +105,14 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-height: 82px;
+  min-height: auto;
+  padding: 5px 1px;
   gap: 20px;
 }
 
 .logo img {
-  width: 100px;
-  height: auto;
+  width: auto;
+  height: 150px;
   object-fit: contain;
 }
 
