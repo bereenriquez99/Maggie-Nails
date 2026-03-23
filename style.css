@@ -109,11 +109,10 @@ ul {
   gap: 20px;
 }
 
-.logo {
-  font-family: "Playfair Display", serif;
-  font-size: 1.7rem;
-  font-weight: 700;
-  color: var(--deep-orange);
+.logo img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
 }
 
 .nav {
